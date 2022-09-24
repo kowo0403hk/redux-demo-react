@@ -3,7 +3,7 @@ import CakeContainer from "./Components/CakeContainer";
 import { Provider } from "react-redux";
 import store from "./redux/store";
 
-function App() {
+const App = () => {
   return (
     <Provider store={store}>
       <div className="App">
@@ -11,6 +11,6 @@ function App() {
       </div>
     </Provider>
   );
-}
+};
 
 export default App;
