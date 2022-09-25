@@ -11,9 +11,9 @@ const App = () => {
     <Provider store={store}>
       <div className="App">
         <HooksCakeContainer />
-        <CakeContainer />
+        {/* <CakeContainer /> */}
         <HooksIceCreamContainer />
-        <IceCreamContainer />
+        {/* <IceCreamContainer /> */}
       </div>
     </Provider>
   );
