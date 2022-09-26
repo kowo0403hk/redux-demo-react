@@ -23,6 +23,7 @@ const UserContainer = () => {
           <p key={user.id}>{user.name}</p>
         ))}
       </div>
+      Thank you!
     </div>
   );
 };
